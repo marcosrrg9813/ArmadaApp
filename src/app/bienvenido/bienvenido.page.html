@@ -1,0 +1,28 @@
+<!-- <ion-header no-border class="blue-pages">
+  <img class= "logo" src="assets/imgs/logoblanco2x.png">
+</ion-header> -->
+
+ <ion-content  class="blue-pages" padding>
+    <div class="logoDiv">
+        <img src="assets/imgs/logoblanco.png" class="logo">
+    </div>
+    <ion-grid class="welcomeGrid">
+      <ion-row justify-content-start>
+        <ion-col>
+            <h3 class="blue-titles">Bienvenido,</h3>
+            <h3 class="white-titles">¿Quién eres?</h3>
+        </ion-col>
+      </ion-row>
+      <ion-row justify-content-center>
+          <ion-col text-center>
+              <button (click)="OnClickCiudadano()" class="round-white-button" > <img  src="assets/imgs/ciudadano.png"></button> 
+              <h6 class="white-titles"> Ciudadano</h6>      
+          </ion-col>
+          <ion-col text-center>
+              <button (click)="OnClickMiembro()" class="round-white-button" > <img  src="assets/imgs/miembroard.png"></button>
+              <h6 class="white-titles">Miembro ARD</h6>
+          </ion-col>
+      </ion-row>
+      
+    </ion-grid>
+</ion-content>

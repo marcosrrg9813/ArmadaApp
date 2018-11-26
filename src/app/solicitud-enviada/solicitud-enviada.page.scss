@@ -1,0 +1,83 @@
+
+.lightblue-titles{
+	color: #3ba6de;
+	font-size: 20px; 
+	font-weight: bold;
+}
+
+.margins{
+	padding: 0 30px;
+}
+
+.iconos-ayuda{
+    margin: 0 9px 0 0;
+    color: #3ba6de;
+}
+
+.plainText {
+    color: #414141;
+    text-decoration: none;
+}
+
+img.logonegro{
+    width: 80px;
+}
+
+.logoDiv {
+    // text-align: right;
+    padding: 30px 0 0 30px;
+}
+
+.logoMenu {
+    float: right;
+    padding: 30px;
+    height: 85px;
+}
+
+.firstsecond-row {
+    padding: 0 0 0 30px;
+}
+
+.goBackArrow {
+    transform: rotate(180deg);
+    height: 30px;
+    width: 30px;
+    vertical-align: middle;
+}
+
+.backStyle {
+    font-size: 15px;
+    color:   #446988; 
+}
+
+.list-ios {
+    margin: 0 !important;
+}
+
+.item-native {
+    padding: 0;
+}
+
+.phoneNumber {
+    font-size: 15px;
+    color:#414141; 
+}
+
+.goForward {
+    height: 25px;
+    width: 25px;
+    vertical-align: middle;
+    color:#446988; 
+}
+
+.button-submit{
+    background-color: #3CA6DE;
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 4vw;
+    font-weight: 800;
+    margin: 30px 0 0 0;
+    outline: none;
+}

@@ -3,29 +3,39 @@
   <ion-tab tab="home">
     <ion-router-outlet name="home"></ion-router-outlet>
   </ion-tab>
-  <ion-tab tab="about">
-    <ion-router-outlet name="about"></ion-router-outlet>
+  <ion-tab tab="directorio">
+    <ion-router-outlet name="directorio"></ion-router-outlet>
   </ion-tab>
-  <ion-tab tab="contact">
-    <ion-router-outlet name="contact"></ion-router-outlet>
+  <!-- <ion-tab tab="estados">
+    <ion-router-outlet name="estados"></ion-router-outlet>
+  </ion-tab> -->
+  <ion-tab tab="ayuda">
+    <ion-router-outlet name="ayuda"></ion-router-outlet>
   </ion-tab>
 
   <ion-tab-bar slot="bottom">
 
-    <ion-tab-button tab="home" href="/tabs/(home:home)">
-      <ion-icon name="home"></ion-icon>
-      <ion-label>Home</ion-label>
+    <ion-tab-button tab="home" href="tabs/tabs/(home:home)">
+      <ion-icon name="paper" class="iconSize"></ion-icon>
+      <ion-label style="font-size: 10px">Servicios y Reportes</ion-label>
     </ion-tab-button>
 
-    <ion-tab-button tab="about" href="/tabs/(about:about)">
-      <ion-icon name="information-circle"></ion-icon>
-      <ion-label>About</ion-label>
+    <ion-tab-button tab="directorio" href="tabs/tabs/(directorio:directorio)">
+      <ion-icon name="ios-information-circle-outline"></ion-icon>
+      <!-- <ion-icon name="md-information" style="margin:0;" size="large" class="iconSize"></ion-icon> -->
+      <ion-label style="font-size: 10px">Directorio</ion-label>
+    </ion-tab-button>
+    
+    <!-- <ion-tab-button tab="estados" href="tabs/tabs/(estados:estados)">
+      <ion-icon name="md-checkbox-outline" class="iconSize"></ion-icon>
+      <ion-label>Estados</ion-label>
+    </ion-tab-button> -->
+
+    <ion-tab-button tab="ayuda" href="tabs/tabs/(ayuda:ayuda)">
+      <ion-icon name="help"  style="margin:0;"  class="iconSize"></ion-icon>
+      <ion-label style="font-size: 10px">Ayuda</ion-label>
     </ion-tab-button>
 
-    <ion-tab-button tab="contact" href="/tabs/(contact:contact)">
-      <ion-icon name="contacts"></ion-icon>
-      <ion-label>Contact</ion-label>
-    </ion-tab-button>
 
   </ion-tab-bar>
 

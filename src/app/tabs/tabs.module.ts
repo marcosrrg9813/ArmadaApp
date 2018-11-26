@@ -7,9 +7,13 @@ import { FormsModule } from '@angular/forms';
 import { TabsPageRoutingModule } from './tabs.router.module';
 
 import { TabsPage } from './tabs.page';
-import { ContactPageModule } from '../contact/contact.module';
-import { AboutPageModule } from '../about/about.module';
+import { AyudaPageModule } from '../ayuda/ayuda.module';
+import { EstadosPageModule } from '../estados/estados.module'
+import { DirectorioPageModule } from '../directorio/directorio.module';
 import { HomePageModule } from '../home/home.module';
+import { ComandanciapuertosPageModule } from '../comandanciapuertos/comandanciapuertos.module';
+import { DivisionPersonalPageModule } from '../division-personal/division-personal.module';
+import { ComisionEticaPageModule } from '../comision-etica/comision-etica.module'
 
 @NgModule({
   imports: [
@@ -18,8 +22,12 @@ import { HomePageModule } from '../home/home.module';
     FormsModule,
     TabsPageRoutingModule,
     HomePageModule,
-    AboutPageModule,
-    ContactPageModule
+    EstadosPageModule,
+    DirectorioPageModule,
+    ComandanciapuertosPageModule,
+    DivisionPersonalPageModule,
+    ComisionEticaPageModule,
+    AyudaPageModule
   ],
   declarations: [TabsPage]
 })

@@ -1,0 +1,74 @@
+ion-content.blue-pages{
+    --ion-background-color: #315d7a;
+}
+
+ion-header.blue-pages{
+    background-color: #315d7a;
+}
+
+
+h3.blue-titles{   
+    color: #3ba6de;
+   
+}
+
+h3.white-titles, h6.white-titles {
+    color: white;
+    margin: 20px 0 20px 0;
+}
+
+
+a.blue-pages{
+    color: white;
+}
+
+#olvidaste-contrasena{
+    margin-top: 3%;
+    color: #3ba6de;
+    text-decoration: underline;
+}
+
+ion-button.button-submit{
+    margin-top: 1%;
+}
+
+ion-input.blue-pages{
+    --placeholder-color: white;
+    --placeholder-opacity: 1;
+    color: white;
+}
+
+ion-label.blue-pages, ion-select.blue-pages{
+
+    color:white;
+}
+
+img.logo{
+    width: 80px;
+}
+
+.logoDiv {
+    text-align: right;
+    padding: 30px 30px 0 0;
+}
+
+.button-submit{
+    background-color: #3CA6DE;
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 4vw;
+    font-weight: 800;
+    margin: 30px 0 0 0;
+    outline: none;
+}
+
+.inputEmail{
+    color: white;
+    border-bottom: 1px solid;
+    text-align: left;
+    padding: 10px 20px;
+    margin: 0 0 20px 0;
+}
+  

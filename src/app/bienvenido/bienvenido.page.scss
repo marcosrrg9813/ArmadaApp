@@ -1,0 +1,55 @@
+ion-content.blue-pages{
+    --ion-background-color: linear-gradient(#446988, #0C4260);
+}
+
+ion-header.blue-pages{
+    background-color: #315d7a;
+}
+
+img.logo{
+    width: 80px;
+}
+
+.logoDiv {
+    text-align: right;
+    padding: 30px 30px 0 0;
+}
+
+h3.blue-titles{   
+    color: #3ba6de;
+   
+}
+
+h3.white-titles, h6.white-titles {
+    color: white;
+    
+}
+
+h6.white-titles
+{
+    font-weight:bold;
+}
+
+.round-white-button {
+    background-color: white;
+    border: 3px solid #446988;
+    color: black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-decoration: underline;
+    outline: none;
+}
+
+.round-white-button:active {
+    background: #446988;
+}
+
+
+.welcomeGrid {
+    padding: 10vh 15px 0;
+}

@@ -1,0 +1,28 @@
+<!-- <ion-header no-border class="blue-pages">
+  <img class= "logo" src="assets/imgs/logoblanco2x.png">
+</ion-header> -->
+
+<ion-content  class="blue-pages" padding>
+    <div class="logoDiv">
+        <img src="assets/imgs/logoblanco.png" class="logo">
+    </div>
+    <ion-row>
+      <img src="assets/imgs/backwardarrow.png" height="20px" alt="" (click)="goBack()">
+    </ion-row>
+    <ion-grid no-padding>
+      <ion-row justify-content-start>
+        <ion-col no-padding style="margin: 0 0 20px 0">
+            <h3 class="white-titles"><b>Restrablecer Contraseña</b></h3>
+            <ion-label class="blue-pages" text-wrap>Escriba su correo electrónico abajo, se le enviará un link para restablecer 
+                su contraseña
+            </ion-label>
+        </ion-col>
+      </ion-row>
+      <ion-row justify-content-center>
+          <ion-col no-padding text-center> 
+            <ion-input class="inputEmail"  placeholder="Correo electrónico">  </ion-input>
+            <button class="button-submit" (click)="CambiarPass()"  shape="round" >ENVIAR</button> 
+          </ion-col>     
+      </ion-row>
+    </ion-grid>
+</ion-content>

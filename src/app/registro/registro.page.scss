@@ -1,0 +1,83 @@
+ion-content.blue-pages{
+    --ion-background-color: #315d7a;
+}
+
+ion-header.blue-pages{
+    background-color: #315d7a;
+}
+
+img.logo{
+    width: 80px;
+}
+
+.logoDiv {
+    text-align: right;
+    padding: 30px 30px 0 0;
+}
+
+h3.blue-titles{   
+    color: #3ba6de;
+   
+}
+
+h3.white-titles, h6.white-titles {
+    color: white;
+    margin: 10px 0 20px 0;
+}
+
+#footer-login{
+    background-color: #456989;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+a.blue-pages{
+    color: white;
+}
+
+#olvidaste-contrasena{
+    margin-top: 3%;
+    color: #3ba6de;
+    text-decoration: underline;
+}
+
+.button-submit{
+    background-color: #3CA6DE;
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 4vw;
+    font-weight: 800;
+    margin: 30px 0 0 0;
+}
+
+ion-input.blue-pages{
+    --placeholder-color: white;
+    --placeholder-opacity: 1;
+    color: white;
+}
+
+ion-label.blue-pages, ion-select.blue-pages{
+
+    color:white;
+}
+
+.inputs{
+    color: white;
+    text-align: left;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+input:focus{
+    outline: none;
+}
+  

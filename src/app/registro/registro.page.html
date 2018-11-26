@@ -1,0 +1,43 @@
+<!-- <ion-header no-border class="blue-pages">
+  <img class= "logo" src="assets/imgs/logoblanco2x.png">
+</ion-header> -->
+
+<ion-content  class="blue-pages" padding>
+    <div class="logoDiv">
+        <img src="assets/imgs/logoblanco.png" class="logo">
+    </div>
+    <ion-row>
+        <img src="assets/imgs/backwardarrow.png" height="20px" alt="" (click)="goBack()">
+    </ion-row>
+    <ion-grid no-padding>
+      <ion-row justify-content-start no-padding>
+        <ion-col no-padding>
+            <h3 class="white-titles">Registro</h3>
+        </ion-col>
+      </ion-row>
+      <ion-row justify-content-center no-padding>
+          <ion-col text-center no-padding>
+                <ion-item no-padding style="margin: 0 0 20px 0;">   
+                    <input class="inputs"  placeholder="Nombre">  
+                </ion-item>
+                <ion-item no-padding style="margin: 0 0 20px 0;">   
+                    <input class="inputs"  placeholder="Apellido"> 
+                </ion-item> 
+                <ion-item no-padding style="margin: 0 0 20px 0;">
+                    <ion-label class="blue-pages" style="padding: 0 0 0 20px;">Tipo de Identificación</ion-label>
+                    <ion-select class="blue-pages" ok-text="Aceptar" value="" cancel-text="Cancelar">
+                      <ion-select-option value="cedula">Cedula</ion-select-option>
+                      <ion-select-option value="pasaporte">Pasaporte</ion-select-option>
+                    </ion-select>
+                </ion-item>
+                <ion-item no-padding style="margin: 0 0 20px 0;">   
+                    <input class="inputs" placeholder="No. Identificación"> 
+                </ion-item>
+                <ion-item no-padding style="margin: 0 0 20px 0;">   
+                    <input class="inputs"  placeholder="Correo electrónico">  
+                </ion-item>
+                <button class="button-submit" (click)="Registrar()"  shape="round" >REGISTRAR</button>
+          </ion-col>     
+      </ion-row>
+    </ion-grid>
+</ion-content>

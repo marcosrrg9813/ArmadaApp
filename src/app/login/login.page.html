@@ -1,0 +1,50 @@
+<!-- <ion-header no-border class="blue-pages">
+  <img class= "logo" src="assets/imgs/logoblanco.png">
+</ion-header> -->
+
+<ion-content  class="blue-pages" padding>
+    <div class="logoDiv">
+        <img src="assets/imgs/logoblanco.png" class="logo">
+    </div>
+    <ion-grid>
+      <ion-row justify-content-start>
+        <ion-col>
+            <h3 class="blue-titles">Bienvenido,</h3>
+            <h3 class="white-titles">Inicia sesión</h3>
+        </ion-col>
+      </ion-row>
+      <ion-row justify-content-center>
+          <ion-col text-center>
+            <form>
+                <ion-item margin-bottom class="ionItem">
+                    <ion-grid class="userIcon">
+                            <ion-icon name="md-person" class="iconSize"></ion-icon>
+                    </ion-grid> 
+                    <ion-grid>
+                            <ion-label class="userLabel">Usuario</ion-label>
+                            <ion-input class="blue-pages"  placeholder="Nombre de usuario"></ion-input>
+                    </ion-grid> 
+                </ion-item>
+                <ion-item style="margin: 50px 0 0 0;">  
+                    <ion-grid>
+                            <ion-icon name="md-lock" class="iconSize passIcon"></ion-icon>
+                    </ion-grid> 
+                    <ion-grid>
+                            <ion-input class="blue-pages"  type="password" placeholder="Contraseña">  </ion-input>
+                    </ion-grid> 
+                </ion-item> 
+                <p (click)="OlvidasteContrasena()" id="olvidaste-contrasena">¿Olvidaste la contraseña?</p> 
+                <button class="button-submit" (click)="StartSession()" shape="round" >INICIAR SESIÓN</button>
+            </form>             
+          </ion-col>     
+      </ion-row>
+    </ion-grid>
+</ion-content>
+
+<ion-footer >
+
+    <ion-row justify-content-center id="footer-login">
+          <p>¿No tienes cuenta? <a class="blue-pages" (click)="Registrar()" ><b>Registrate</b> </a> </p>
+    </ion-row>
+
+ </ion-footer>

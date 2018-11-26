@@ -1,0 +1,92 @@
+<div class="logoDiv">
+  <img class= "logonegro" src="assets/imgs/logonegro.png">
+  <img src="assets/imgs/signout.png" class="logoMenu" (click)="logout()">
+</div> 
+
+
+<ion-content>
+<!-- <div class="logoDiv">
+    <img class= "logonegro" src="assets/imgs/logonegro.png">
+    <img src="assets/imgs/signout.png" class="logoMenu" (click)="logout()">
+</div>  -->
+<ion-grid>
+  <ion-row class="firstsecond-row" align-items-end>
+    <ion-col>
+      <p class="lightblue-titles">Ayuda</p>
+    </ion-col>
+  </ion-row>
+  <div class="margins">
+    <ion-row align-items-end>	
+      <ion-item lines="none">
+        <ion-icon name="pin" class="iconos-ayuda"></ion-icon>
+        <ion-label text-wrap class="plainText">Base naval "27 de Febrero", av. España, Sans Soucí, Santo Domingo Este, PSD, República Dominicana</ion-label>
+      </ion-item>	
+    </ion-row>
+    
+    <ion-row>
+        <ion-item lines="none">
+          <ion-icon   class="iconos-ayuda" item-start name="call"></ion-icon>
+          <ion-label text-wrap class="plainText">  Tel: 809-593-5900      
+        </ion-label> 
+        </ion-item>		
+    </ion-row>
+
+    <ion-row>
+      <ion-item lines="none">
+        <ion-icon   class="iconos-ayuda" item-start  name="mail"></ion-icon>
+        <ion-label class="plainText">info@marina.mil.do</ion-label> 
+      </ion-item>	
+    </ion-row>
+
+    <ion-row>
+      <ion-item lines="none">
+        <ion-icon name="ios-globe" class="iconos-ayuda"></ion-icon>
+        <ion-label text-wrap class="plainText"> <a class="plainText" href="http://www.marina.mil.do" target="_system">www.armada.mil.do</a></ion-label>
+      </ion-item>		
+    </ion-row>
+  </div>
+</ion-grid>
+
+<ion-grid>
+  <ion-row class="firstsecond-row" align-items-end>
+    <ion-col>
+      <p class="lightblue-titles">Contacto</p>
+    </ion-col>
+  </ion-row>
+  <div class="margins">
+    <ion-row>
+      <ion-col no-padding>
+        <ion-item style="margin: 0 30px 0 0;">
+          <input type="text"  placeholder="Nombre" class="inputsStyle">
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col no-padding>
+        <ion-item style="margin: 0 30px 0 0;">
+          <input type="text"  placeholder="Email" class="inputsStyle">
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col no-padding>
+        <ion-item style="margin: 0 30px 0 0;">
+          <input type="text" placeholder="Asunto" class="inputsStyle">
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col no-padding>
+        <ion-item style="margin: 0 30px 0 0;">
+            <textarea type="text"  placeholder="Mensaje" class="inputsStyle"></textarea>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+  </div>
+</ion-grid>
+
+<div style="text-align: center;">
+  <button class="button-submit">ENVIAR</button>
+</div>
+
+</ion-content>

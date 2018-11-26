@@ -1,5 +1,7 @@
 {
   "name": "ArmadaApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

@@ -1,0 +1,26 @@
+<!-- <ion-header no-border class="blue-pages">
+  <img class= "logo" src="assets/imgs/logoblanco2x.png">
+</ion-header> -->
+
+<ion-content  class="blue-pages" padding>
+    <div class="logoDiv">
+        <img src="assets/imgs/logoblanco.png" class="logo">
+    </div>
+    <ion-row>
+        <img src="assets/imgs/backwardarrow.png" height="20px" alt="" (click)="goBack()">
+      </ion-row>
+    <ion-grid no-padding>
+      <ion-row justify-content-start no-padding>
+        <ion-col no-padding>
+            <h3 class="white-titles">Cambiar Contraseña</h3>
+        </ion-col>
+      </ion-row>
+      <ion-row justify-content-center>
+          <ion-col text-center> 
+                <ion-input type="password" class="inputEmail"  placeholder="Nueva contraseña">  </ion-input>
+                <ion-input type="password" class="inputEmail"  placeholder="Confirmar contraseña">  </ion-input>
+              <button class="button-submit" (click)="Guardar()" shape="round" >GUARDAR</button> 
+          </ion-col>     
+      </ion-row>
+    </ion-grid>
+</ion-content>

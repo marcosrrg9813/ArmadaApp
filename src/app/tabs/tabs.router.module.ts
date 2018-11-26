@@ -3,8 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { TabsPage } from './tabs.page';
 import { HomePage } from '../home/home.page';
-import { AboutPage } from '../about/about.page';
-import { ContactPage } from '../contact/contact.page';
+import { DirectorioPage } from '../directorio/directorio.page';
+import { AyudaPage } from '../ayuda/ayuda.page';
+import { EstadosPage } from '../estados/estados.page'
+import { ComandanciapuertosPage } from '../comandanciapuertos/comandanciapuertos.page'
+import { DivisionPersonalPage } from '../division-personal/division-personal.page'
+import { ComisionEticaPage } from '../comision-etica/comision-etica.page'
 
 const routes: Routes = [
   {
@@ -12,25 +16,40 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: '',
-        redirectTo: '/tabs/(home:home)',
-        pathMatch: 'full',
-      },
-      {
         path: 'home',
         outlet: 'home',
         component: HomePage
       },
       {
-        path: 'about',
-        outlet: 'about',
-        component: AboutPage
+        path: 'home/comandanciapuertos',
+        outlet: 'home',
+        component: ComandanciapuertosPage
       },
       {
-        path: 'contact',
-        outlet: 'contact',
-        component: ContactPage
-      }
+        path: 'home/division-personal',
+        outlet: 'home',
+        component: DivisionPersonalPage
+      },
+      {
+        path: 'home/comision-etica',
+        outlet: 'home',
+        component: ComisionEticaPage
+      },
+      {
+        path: 'directorio',
+        outlet: 'directorio',
+        component: DirectorioPage
+      },
+      {
+        path: 'ayuda',
+        outlet: 'ayuda',
+        component: AyudaPage
+      },
+      // {
+      //   path: 'estados',
+      //   outlet: 'estados',
+      //   component: EstadosPage
+      // },
     ]
   },
   {

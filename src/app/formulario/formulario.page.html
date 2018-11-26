@@ -1,0 +1,116 @@
+
+<ion-header no-border>
+  <div class="logoDiv">
+    <img class= "logonegro" src="assets/imgs/logonegro.png">
+    <img src="assets/imgs/signout.png" class="logoMenu" (click)="logout()">
+  </div>
+</ion-header>
+
+<ion-content>
+  <!-- <div class="logoDiv">
+      <img class= "logonegro" src="assets/imgs/logonegro.png">
+      <img src="assets/imgs/signout.png" class="logoMenu" (click)="logout()">
+  </div> -->
+  <ion-grid>
+    <ion-row class="firstsecond-row" align-items-end (click)="goBack()">
+      <ion-col>
+        <span class="backStyle"> <ion-icon name="md-arrow-forward" class="goBackArrow"></ion-icon>
+          Solicitudes
+        </span>
+      </ion-col>
+    </ion-row>
+    <ion-list padding no-lines>
+      <ion-item>
+        <ion-label>
+            <ion-grid no-padding>
+              <ion-row no-padding>
+                <ion-col no-padding>
+                    <input type="text" value="Lorem Ipsum" class="inputsStyle">
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+
+    <ion-list padding no-lines>
+      <ion-item>
+        <ion-label>
+            <ion-grid no-padding>
+              <ion-row no-padding>
+                <ion-col no-padding>
+                    <input type="text" value="Lorem Ipsum" class="inputsStyle">
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+
+    <ion-list padding no-lines>
+        <ion-label>
+            <ion-grid no-padding>
+              <ion-row no-padding>
+                <ion-col no-padding>
+                  <ion-item>
+                      <ion-label>Seleccione una opción</ion-label>
+                      <ion-select class="inputsStyle" ok-text="Aceptar" cancel-text="Cancelar">
+                        <ion-select-option selected>Lorem Ipsum</ion-select-option>
+                        <ion-select-option >Lorem Ipsum 2</ion-select-option>
+                      </ion-select>
+                  </ion-item>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+        </ion-label>
+    </ion-list>
+
+    <ion-list padding no-lines>
+      <ion-item>
+        <ion-label>
+            <ion-grid no-padding>
+              <ion-row no-padding>
+                <ion-col no-padding>
+                    <input type="text" value="Lorem Ipsum" class="inputsStyle">
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+
+    <ion-list padding no-lines>
+      <ion-item>
+        <ion-label>
+            <ion-grid no-padding>
+              <ion-row no-padding>
+                <ion-col no-padding>
+                    <input type="text" value="Lorem Ipsum" class="inputsStyle">
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+  </ion-grid> 
+
+  <div class="archive">
+    <ion-grid>
+      <ion-row>
+        <p style="width: 100%;
+        margin: 10px 0 0 0;">
+          <ion-icon name="attach" class="clip"></ion-icon>
+          Adjuntar archivos
+        </p>
+        <p style="    margin: 0 0 10px 0;
+        padding: 0 20px;
+        color: #b7b6b6;">Max. 5 mb</p>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div style="text-align: center;">
+    <button class="button-submit" (click)="goForward()">ENVIAR</button>
+  </div>
+
+</ion-content>

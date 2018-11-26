@@ -1,0 +1,103 @@
+ion-content.blue-pages{
+    --ion-background-color: #315d7a;
+}
+
+ion-header.blue-pages{
+    background-color: #315d7a;
+}
+
+img.logo{
+    width: 80px;
+}
+
+.logoDiv {
+    text-align: right;
+    padding: 30px 30px 0 0;
+}
+
+h3.blue-titles{   
+    color: #3ba6de;
+   
+}
+
+h3.white-titles, h6.white-titles {
+    color: white;
+    
+}
+
+.native-input {
+    padding: 0 !important;
+}
+
+#footer-login{
+    background-color: #456989;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+a.blue-pages{
+    color: white;
+}
+
+#olvidaste-contrasena{
+    margin: 20px 0 30px 0;
+    color:#B7B7B7;
+    text-decoration: underline;
+    text-align: right;
+}
+
+ion-button.button-submit{
+    margin-top: 1%;
+}
+
+ion-input.blue-pages{
+    --placeholder-color: white;
+    --placeholder-opacity: 1;
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+    --padding-start: 0px;
+    --padding-end: 0px;
+    color: white;
+}
+
+.item-inner {
+    border-bottom-color: #3ba6de;
+}
+
+.userIcon {
+    // padding: 45px 0 0 0;
+    color: #3ba6de;
+    margin-right: 0;
+}
+
+.passIcon {
+    color: white;
+    margin-right: 0;
+}
+
+.iconSize {
+    height: 25px;
+    width: 25px;
+}
+
+.button-submit{
+    background-color: #3CA6DE;
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 4vw;
+    font-weight: 800;
+    margin: 15px 0 0 0;
+    outline: none;
+}
+
+.userLabel {
+    margin: 0 !important;
+    color: #3ba6de;
+    font-size: 3.5vw;
+    font-weight: 900;
+}
+
+
+  
